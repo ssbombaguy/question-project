@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.container  h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 3em;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4em;
+}
+.buttons button {
+    border: none;
+    background: #0c4f79;
+    color: white;
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+}
